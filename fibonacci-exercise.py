@@ -62,13 +62,3 @@ def test_contents(student_results):
         else:
             print(f"Term at index{n} is incorrect. You have {fib[n]} and I have {fibonacci_results[n]}")
             is_correct = False
-            
-if test_length(fib) and test_contents(fib):
-    print("""
-You've passed my automated tests.
-Don't forget to save your work and commit your changes.
-Try the final exercise now.""")
-else:
-    print("""
-Automated error checking complete, but it looks like something is wrong with your code.
-Check the messages that were already printed above this for help figuring out the problem.""")
