@@ -62,3 +62,7 @@ def test_contents(student_results):
         else:
             print(f"Term at index{n} is incorrect. You have {fib[n]} and I have {fibonacci_results[n]}")
             is_correct = False
+
+
+test_length(fib)
+test_contents(fib)
