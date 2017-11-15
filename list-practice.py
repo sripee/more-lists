@@ -5,10 +5,9 @@ If you're correct, you'll get a message in the terminal saying "Your string_list
 """
 
 # On the line below, create a list named string_list containing 7 strings
+string_list=["eggs","bacon","cheese","waffles","pancakes","toast","butter"]
 
 
-
-#k
 
 # DON'T EDIT BELOW THIS LINE #
 # I have code here that will help you know if your answer works
